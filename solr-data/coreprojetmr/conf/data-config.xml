@@ -1,0 +1,2284 @@
+<dataConfig>
+<dataSource type="JdbcDataSource" driver="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://DB:3306/mr" user="root" password="1234" />
+<document>
+	<entity name="001" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `001` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=1  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="002" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `002` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=2  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="003" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `003` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=3  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="004" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `004` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=4  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="005" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `005` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=5  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="006" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `006` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=6  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="007" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `007` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=7  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="008" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `008` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=8  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="009" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `009` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=9  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="010" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `010` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=10  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="011" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `011` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=11  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="012" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `012` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=12  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="013" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `013` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=13  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="014" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `014` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=14  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="015" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `015` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=15  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="016" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `016` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=16  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="017" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `017` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=17  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="018" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `018` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=18  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="019" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `019` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=19  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="020" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `020` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=20  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="021" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `021` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=21  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="022" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `022` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=22  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="023" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `023` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=23  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="024" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `024` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=24  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="025" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `025` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=25  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="026" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `026` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=26  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="027" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `027` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=27  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="028" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `028` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=28  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="029" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `029` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=29  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="030" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `030` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=30  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="031" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `031` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=31  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="032" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `032` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=32  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="033" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `033` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=33  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="034" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `034` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=34  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="035" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `035` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=35  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="036" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `036` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=36  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="037" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `037` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=37  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="038" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `038` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=38  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="039" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `039` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=39  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="040" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `040` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=40  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="041" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `041` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=41  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="042" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `042` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=42  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="043" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `043` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=43  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="044" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `044` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=44  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="045" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `045` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=45  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="046" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `046` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=46  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="047" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `047` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=47  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="048" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `048` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=48  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="049" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `049` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=49  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="050" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `050` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=50  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="051" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `051` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=51  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="052" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `052` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=52  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="053" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `053` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=53  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="054" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `054` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=54  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="055" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `055` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=55  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="056" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `056` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=56  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="057" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `057` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=57  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="058" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `058` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=58  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="059" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `059` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=59  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="060" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `060` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=60  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="061" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `061` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=61  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="062" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `062` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=62  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="063" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `063` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=63  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="064" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `064` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=64  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="065" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `065` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=65  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="066" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `066` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=66  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="067" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `067` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=67  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="068" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `068` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=68  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="069" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `069` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=69  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="070" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `070` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=70  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="071" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `071` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=71  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="072" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `072` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=72  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="073" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `073` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=73  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="074" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `074` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=74  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="075" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `075` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=75  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="076" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `076` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=76  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="077" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `077` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=77  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="078" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `078` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=78  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="079" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `079` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=79  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="080" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `080` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=80  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="081" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `081` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=81  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="082" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `082` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=82  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="083" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `083` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=83  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="084" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `084` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=84  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="085" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `085` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=85  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="086" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `086` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=86  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="087" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `087` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=87  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="088" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `088` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=88  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="089" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `089` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=89  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="090" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `090` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=90  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="091" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `091` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=91  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="092" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `092` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=92  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="093" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `093` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=93  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="094" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `094` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=94  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="095" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `095` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=95  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="096" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `096` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=96  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="097" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `097` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=97  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="098" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `098` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=98  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="099" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `099` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=99  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="100" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `100` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=100  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="101" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `101` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=101  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="102" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `102` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=102  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="103" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `103` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=103  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="104" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `104` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=104  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="105" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `105` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=105  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="106" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `106` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=106  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="107" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `107` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=107  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="108" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `108` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=108  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="109" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `109` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=109  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="110" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `110` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=110  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="111" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `111` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=111  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="112" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `112` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=112  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="113" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `113` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=113  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+	<entity name="114" query="Select q.NAya as NAya,q.NTafsir as Ntafsir,
+	q.Texte as Text,s.NSoura as Nsoura,s.Nom as SourahNom,s.makki_madani as Type,T.Nom as ktab,T.An as annee,T.Description as Description,
+	T.Nom_S as MoufaNom,A.Aya as Aya,A.Aya2 as Aya2,A.Aya3 as Aya3,A.Aya4 as Aya4
+		from `114` as q ,souar as s,tafassir as t ,Ayat as A
+			where q.NTafsir=T.NTafsir and q.NAya=A.NAya and s.NSoura=A.NSoura and s.NSoura=114  ">
+		<field column="Nsoura" name="Nsoura"/>
+		<field column="NAya" name="NAya"/>
+		<field column="Ntafsir" name="Ntafsir"/>
+		<field column="Text" name="Text"/>
+		<field column="SourahNom" name="SourahNom"/>
+		<field column="Type" name="Type"/>
+		<field column="ktab" name="ktab"/>
+		<field column="annee" name="annee"/>
+		<field column="MoufaNom" name="MoufaNom"/>
+		<field column="Description" name="Description"/>
+		<field column="Aya" name="Aya"/>
+		<field column="Aya2" name="Aya2"/>
+		<field column="Aya3" name="Aya3"/>
+		<field column="Aya4" name="Aya4"/>
+	</entity>
+</document></dataConfig>

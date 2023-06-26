@@ -1,0 +1,51 @@
+version: '3.9'
+services:
+  solr:
+    #image: solri
+    container_name: solr
+    ports:
+      - "8989:8983"
+    build: ./solr-8.11.2
+    #command: 'bash -e -c "precreate-core my_core;"'
+    volumes:
+      - ./solr-data:/var/solr/data
+
+  DB:
+    container_name: DB
+    image: mysql:8.0.33
+    restart: always
+    environment:
+      - MYSQL_DATABASE=mr
+      - MYSQL_ROOT_PASSWORD=1234
+      - MYSQL_HOST:DB
+    ports:
+      - 3307:3306
+    volumes:
+      - mysql:/var/lib/mysql
+  
+  back:
+    container_name: back
+    image: back:latest
+    build: ./BackenMr
+    ports:
+      - 8080:8080
+    environment:
+      - spring.datasource.url=jdbc:mysql://DB:3306/mr
+    depends_on:
+      - solr
+
+  front:
+    container_name: front
+    image: front:latest
+    build: ./FrontEnd
+    ports:
+      - 3000:3000
+    depends_on:
+      - back
+
+volumes:
+  data:
+    external: true
+    name : data
+  mysql:
+    name : mysql
